@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <Script src="./js/script.js"></Script>
+    <title>Fleet Management WebApp</title>
+</head>
+<body>
+    <header class="centerFlexColumn">
+        <h1>Fleet Management</h1>
+        <h3><span id="directoryButton" class="hoverEffect" onclick="reveal('navWrap')">Directory</span></h3>
+        <div id="navWrap" class="revealMe">
+            <nav>
+                <ul class="centerFlexRow">
+                    <li class="hoverEffect">Doc Library</li>
+                    <li class="hoverEffect">Guide</li>
+                    <li class="hoverEffect">Processes</li>
+                    <li class="hoverEffect">Renewals</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="Docs"></section>
+        <section id="Guide"></section>
+        <section id="Processes"></section>
+        <section id="Renewals"></section>
+    </main>
+    <footer></footer>
+</body>
+</html>
